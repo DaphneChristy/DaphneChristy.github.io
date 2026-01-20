@@ -99,12 +99,18 @@
         }
 
         .profile-image {
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
+            min-width: 200px;
+            min-height: 200px;
+            max-width: 200px;
+            max-height: 200px;
             border-radius: 50%;
             margin: 0 auto 2rem;
             border: 5px solid #87ceeb;
             object-fit: cover;
+            object-position: center center;
+            display: block;
         }
 
         .home-content h1 {
@@ -522,7 +528,7 @@
 
     <section id="home">
         <div class="home-content">
-            <img src="https://drive.google.com/uc?export=view&id=1vruHhPKVUL0MSQH8MnIZx20OZsdqRuNB" alt="Daphne Christy J" class="profile-image">
+            <img src="https://i.ibb.co/21BKC7XJ/image.jpg" alt="Daphne Christy J" class="profile-image">
             <h1>Daphne Christy J</h1>
             <h2>Engineering Student | ML & AI Enthusiast</h2>
             <a href="#contact" class="hire-btn">Hire Me</a>
@@ -531,11 +537,8 @@
 
     <section id="about">
         <h2 class="section-title">About Me</h2>
-        <div style="display: flex; gap: 3rem; align-items: center; flex-wrap: wrap;">
-            <img src="https://drive.google.com/uc?export=view&id=1iHpxPjh7xh3s_c3tkz4F0-ZukUbHyyah" alt="Daphne Christy J" style="width: 250px; height: 250px; border-radius: 15px; object-fit: cover; border: 4px solid #87ceeb; box-shadow: 0 10px 30px rgba(135, 206, 235, 0.3);">
-            <div class="about-content" style="flex: 1; min-width: 300px;">
-                <p>A passionate machine learning enthusiast pursuing a career in engineering. Investigating datasets and creating intelligent systems from the ground up are my passions. My projects show a solid grasp of fundamental machine learning concepts and libraries. I can't wait to add my enthusiasm and expertise to a creative team.</p>
-            </div>
+        <div class="about-content">
+            <p>A passionate machine learning enthusiast pursuing a career in engineering. Investigating datasets and creating intelligent systems from the ground up are my passions. My projects show a solid grasp of fundamental machine learning concepts and libraries. I can't wait to add my enthusiasm and expertise to a creative team.</p>
         </div>
     </section>
 
@@ -810,4 +813,5 @@
     </script>
 </body>
 </html>
+
 
