@@ -1,43 +1,9 @@
-<div class="project-card" data-category="neuro">
-                <h3>Sniper Cerebrix: Hyperadaptive Cognition Interface (Ongoing)</h3>
-                <p><strong>Definition:</strong> Classifies brain states during visual perception and mental imagery tasks by combining domain adaptation and searchlight analysis.</p>
-                <p><strong>How it operates:</strong> Accurate state classification is achieved by identifying localized patterns of brain activity and using machine learning to adapt across cognitive domains.</p>
-                <p><strong>Why it matters:</strong> By enhancing cross-task brain decoding, it improves cognitive neuroscience and brain-computer interface systems.</p>
-                <div class="project-links">
-                    <span class="project-tag">Ongoing</span>
-                    <span class="project-tag">Brain-Computer Interface</span>
-                    <span class="project-tag">ML</span>
-                </div>
-            </div>
-            <div class="project-card" data-category="nlp">
-                <h3>Sentiment Analysis of Product Reviews</h3>
-                <p><strong>Definition:</strong> An NLP model to classify reviews as positive, neutral or negative. Sentiment analysis examines the feelings and viewpoints expressed in text to determine customer sentiment.</p>
-                <p><strong>How it works:</strong> Recognizes the tone of customer feedback using machine learning and linguistic rules to identify patterns like "love it!!" versus "total waste of money."</p>
-                <p><strong>Why it matters:</strong> Assists companies in determining customer satisfaction, enhancing products, and making more informed marketing decisions based on actual user sentiment.</p>
-                <div class="project-links">
-                    <a href="https://github.com/DaphneChristy/Sentiment-Analysis-of-Product-reviews---NLP" target="_blank" class="project-link-btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                        View on GitHub
-                    </a>
-                    <span class="project-tag">NLP</span>
-                    <span class="project-tag">Python</span>
-                    <span class="project-tag">Machine Learning</span>
-                </div>
-            </div>
-            <div class="project-card" data-category="dl">
-                <h3>Deepfake Video Detection</h3>
-                <p><strong>Definition:</strong> Uses deep learning models to detect manipulated or AI-generated videos that mimic real people, calling out fake faces before they fool anyone.</p>
-                <p><strong>How it operates:</strong> CNNs, RNNs, or transformer-based models analyze minute irregularities in lighting, blinking patterns, facial movements, and pixel-level anomalies.</p>
-                <p><strong>Why it matters:</strong> Guards against false information, identity theft, and online dangers, particularly in politics, media, and security where "seeing is no longer believing."</p>
-                <div class="project-links">
-                    <a href="https://github.com/DaphneChristy/Deepfake-Video-Detection-using-Deep-Learning" target="_blank" class="project-link-btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ML Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Daphne Christy J | ML Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -45,30 +11,11 @@
             box-sizing: border-box;
         }
 
-        :root {
-            --bg-light: #ffffff;
-            --bg-dark: #0d4d4d;
-            --text-light: #1a1a1a;
-            --text-dark: #00e5ff;
-            --accent: #00bcd4;
-            --card-light: #f5f5f5;
-            --card-dark: #0a3a3a;
-        }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000000;
+            color: #87ceeb;
             line-height: 1.6;
-            transition: all 0.3s ease;
-        }
-
-        body.light-mode {
-            background-color: var(--bg-light);
-            color: var(--text-light);
-        }
-
-        body.dark-mode {
-            background-color: var(--bg-dark);
-            color: var(--text-dark);
         }
 
         /* Navigation */
@@ -76,67 +23,36 @@
             position: fixed;
             top: 0;
             width: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(10px);
             padding: 1rem 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             z-index: 1000;
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(0, 229, 255, 0.2);
-        }
-
-        .dark-mode nav {
-            background-color: rgba(13, 77, 77, 0.95);
-        }
-
-        .light-mode nav {
-            background-color: rgba(255, 255, 255, 0.95);
-            border-bottom: 1px solid rgba(0, 188, 212, 0.2);
+            border-bottom: 1px solid rgba(135, 206, 235, 0.2);
         }
 
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
-            color: var(--accent);
+            color: #87ceeb;
         }
 
         .nav-links {
             display: flex;
             list-style: none;
             gap: 2rem;
-            align-items: center;
         }
 
         .nav-links a {
+            color: #87ceeb;
             text-decoration: none;
             transition: color 0.3s;
         }
 
-        .dark-mode .nav-links a {
-            color: var(--text-dark);
-        }
-
-        .light-mode .nav-links a {
-            color: var(--text-light);
-        }
-
         .nav-links a:hover {
-            color: var(--accent);
-        }
-
-        .theme-toggle {
-            background: none;
-            border: 2px solid var(--accent);
-            color: var(--accent);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .theme-toggle:hover {
-            background-color: var(--accent);
-            color: white;
+            color: #b0e0e6;
         }
 
         /* Sections */
@@ -151,20 +67,9 @@
         .section-title {
             font-size: 2.5rem;
             margin-bottom: 2rem;
+            color: #87ceeb;
             position: relative;
             display: inline-block;
-            animation: slideIn 1s ease-out;
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
 
         .section-title::after {
@@ -174,17 +79,7 @@
             left: 0;
             width: 60px;
             height: 4px;
-            background-color: var(--accent);
-            animation: expandWidth 0.8s ease-out 0.3s backwards;
-        }
-
-        @keyframes expandWidth {
-            from {
-                width: 0;
-            }
-            to {
-                width: 60px;
-            }
+            background-color: #87ceeb;
         }
 
         /* Home Section */
@@ -196,18 +91,11 @@
         }
 
         .home-content {
-            background: linear-gradient(135deg, rgba(13, 77, 77, 0.8), rgba(10, 58, 58, 0.9));
+            background: linear-gradient(135deg, rgba(20, 20, 20, 0.8), rgba(10, 10, 10, 0.9));
             padding: 4rem 3rem;
             border-radius: 30px;
             max-width: 900px;
-            position: relative;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(10px);
-        }
-
-        .light-mode .home-content {
-            background: linear-gradient(135deg, rgba(176, 224, 230, 0.3), rgba(176, 224, 230, 0.5));
-            box-shadow: 0 20px 60px rgba(0, 188, 212, 0.2);
         }
 
         .profile-image {
@@ -215,16 +103,14 @@
             height: 150px;
             border-radius: 50%;
             margin: 0 auto 2rem;
-            border: 5px solid var(--accent);
+            border: 5px solid #87ceeb;
             object-fit: cover;
-            animation: fadeInUp 1s ease-out;
         }
 
         .home-content h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
-            animation: fadeInUp 1s ease-out 0.1s backwards;
-            background: linear-gradient(135deg, var(--accent), #00e5ff);
+            background: linear-gradient(135deg, #87ceeb, #b0e0e6);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -232,76 +118,57 @@
 
         .home-content h2 {
             font-size: 1.3rem;
-            color: var(--accent);
+            color: #87ceeb;
             margin-bottom: 2.5rem;
-            animation: fadeInUp 1s ease-out 0.2s backwards;
         }
 
         .hire-btn {
             display: inline-block;
             padding: 1rem 3rem;
-            background-color: var(--accent);
-            color: white;
+            background-color: #87ceeb;
+            color: #000000;
             text-decoration: none;
             border-radius: 50px;
             font-size: 1.1rem;
             font-weight: bold;
             transition: all 0.3s;
-            animation: fadeInUp 1s ease-out 0.3s backwards;
-            box-shadow: 0 5px 20px rgba(0, 188, 212, 0.4);
         }
 
         .hire-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0, 188, 212, 0.6);
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            box-shadow: 0 8px 25px rgba(135, 206, 235, 0.6);
         }
 
         /* About Section */
         .about-content {
             max-width: 800px;
             line-height: 1.8;
+            font-size: 1.1rem;
         }
 
         /* Skills Section */
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
         }
 
         .skill-card {
+            background-color: #0a0a0a;
             padding: 2rem;
             border-radius: 10px;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .dark-mode .skill-card {
-            background-color: var(--card-dark);
-        }
-
-        .light-mode .skill-card {
-            background-color: var(--card-light);
+            border: 2px solid #87ceeb;
+            transition: transform 0.3s;
         }
 
         .skill-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 10px 30px rgba(0, 188, 212, 0.3);
+            box-shadow: 0 10px 30px rgba(135, 206, 235, 0.3);
         }
 
         .skill-card h3 {
-            color: var(--accent);
+            color: #87ceeb;
             margin-bottom: 1rem;
         }
 
@@ -315,88 +182,49 @@
 
         .filter-btn {
             padding: 0.5rem 1.5rem;
-            border: 2px solid var(--accent);
+            border: 2px solid #87ceeb;
             background: none;
+            color: #87ceeb;
             border-radius: 20px;
             cursor: pointer;
             transition: all 0.3s;
         }
 
-        .dark-mode .filter-btn {
-            color: var(--text-dark);
-        }
-
-        .light-mode .filter-btn {
-            color: var(--text-light);
-        }
-
-        .filter-btn:hover, .filter-btn.active {
-            background-color: var(--accent);
-            color: white;
+        .filter-btn:hover,
+        .filter-btn.active {
+            background-color: #87ceeb;
+            color: #000000;
         }
 
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
         }
 
         .project-card {
+            background-color: #0a0a0a;
             padding: 2rem;
             border-radius: 10px;
+            border: 2px solid #87ceeb;
             transition: all 0.3s;
-            position: relative;
-        }
-
-        .dark-mode .project-card {
-            background-color: var(--card-dark);
-        }
-
-        .light-mode .project-card {
-            background-color: var(--card-light);
         }
 
         .project-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 10px 30px rgba(0, 188, 212, 0.3);
+            box-shadow: 0 10px 30px rgba(135, 206, 235, 0.3);
         }
 
         .project-card h3 {
-            color: var(--accent);
+            color: #87ceeb;
             margin-bottom: 1rem;
-        }
-
-        .project-links {
-            display: flex;
-            gap: 1rem;
-            margin-top: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .project-link-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.6rem 1.2rem;
-            background-color: var(--accent);
-            color: white;
-            text-decoration: none;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            font-weight: bold;
-            transition: all 0.3s;
-        }
-
-        .project-link-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 15px rgba(0, 188, 212, 0.5);
         }
 
         .project-tag {
             display: inline-block;
             padding: 0.3rem 0.8rem;
-            background-color: var(--accent);
-            color: white;
+            background-color: #87ceeb;
+            color: #000000;
             border-radius: 15px;
             font-size: 0.8rem;
             margin-right: 0.5rem;
@@ -412,21 +240,14 @@
         }
 
         .cert-item {
+            background-color: #0a0a0a;
             padding: 1.5rem;
             border-radius: 10px;
-            border-left: 4px solid var(--accent);
-        }
-
-        .dark-mode .cert-item {
-            background-color: var(--card-dark);
-        }
-
-        .light-mode .cert-item {
-            background-color: var(--card-light);
+            border-left: 4px solid #87ceeb;
         }
 
         .cert-item h3 {
-            color: var(--accent);
+            color: #87ceeb;
             margin-bottom: 0.5rem;
         }
 
@@ -439,8 +260,8 @@
             display: inline-block;
             margin-top: 2rem;
             padding: 1rem 2rem;
-            background-color: var(--accent);
-            color: white;
+            background-color: #87ceeb;
+            color: #000000;
             text-decoration: none;
             border-radius: 30px;
             transition: all 0.3s;
@@ -449,13 +270,21 @@
 
         .download-btn:hover {
             transform: scale(1.05);
-            box-shadow: 0 5px 20px rgba(0, 188, 212, 0.5);
+            box-shadow: 0 5px 20px rgba(135, 206, 235, 0.5);
         }
 
         /* Contact Section */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
         .contact-form {
-            max-width: 600px;
-            margin: 2rem auto;
+            width: 100%;
         }
 
         .form-group {
@@ -465,33 +294,24 @@
         .form-group label {
             display: block;
             margin-bottom: 0.5rem;
-            color: var(--accent);
+            color: #87ceeb;
         }
 
         .form-group input,
         .form-group textarea {
             width: 100%;
             padding: 0.8rem;
-            border: 2px solid var(--accent);
+            border: 2px solid #87ceeb;
             border-radius: 5px;
             background: transparent;
+            color: #87ceeb;
             transition: all 0.3s;
-        }
-
-        .dark-mode .form-group input,
-        .dark-mode .form-group textarea {
-            color: var(--text-dark);
-        }
-
-        .light-mode .form-group input,
-        .light-mode .form-group textarea {
-            color: var(--text-light);
         }
 
         .form-group input:focus,
         .form-group textarea:focus {
             outline: none;
-            box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+            box-shadow: 0 0 10px rgba(135, 206, 235, 0.5);
         }
 
         .form-group textarea {
@@ -502,8 +322,8 @@
         .submit-btn {
             width: 100%;
             padding: 1rem;
-            background-color: var(--accent);
-            color: white;
+            background-color: #87ceeb;
+            color: #000000;
             border: none;
             border-radius: 30px;
             cursor: pointer;
@@ -514,7 +334,131 @@
 
         .submit-btn:hover {
             transform: scale(1.02);
-            box-shadow: 0 5px 20px rgba(0, 188, 212, 0.5);
+            box-shadow: 0 5px 20px rgba(135, 206, 235, 0.5);
+        }
+
+        .contact-info {
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            font-size: 2rem;
+            color: #87ceeb;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .social-icon {
+            width: 60px;
+            height: 60px;
+            background-color: #87ceeb;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #000000;
+            font-size: 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .social-icon:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(135, 206, 235, 0.5);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-style: italic;
+            color: #87ceeb;
+            font-size: 1.1rem;
+        }
+
+        /* Certificate Lightbox */
+        .cert-btn {
+            background-color: #87ceeb;
+            color: #000000;
+            border: none;
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 0.5rem;
+            margin-right: 0.5rem;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .cert-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(135, 206, 235, 0.5);
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .lightbox.active {
+            display: flex;
+        }
+
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 90%;
+            position: relative;
+        }
+
+        .lightbox-content img {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 50px rgba(135, 206, 235, 0.5);
+            background-color: white;
+            padding: 1rem;
+        }
+
+        .close-lightbox {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            background-color: #87ceeb;
+            color: #000000;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .close-lightbox:hover {
+            transform: scale(1.1);
         }
 
         /* Mobile Menu */
@@ -522,16 +466,9 @@
             display: none;
             background: none;
             border: none;
+            color: #87ceeb;
             font-size: 1.5rem;
             cursor: pointer;
-        }
-
-        .dark-mode .mobile-menu-btn {
-            color: var(--text-dark);
-        }
-
-        .light-mode .mobile-menu-btn {
-            color: var(--text-light);
         }
 
         @media (max-width: 768px) {
@@ -545,16 +482,9 @@
                 left: -100%;
                 flex-direction: column;
                 width: 100%;
+                background-color: #000000;
                 padding: 2rem;
                 transition: left 0.3s;
-            }
-
-            .dark-mode .nav-links {
-                background-color: var(--bg-dark);
-            }
-
-            .light-mode .nav-links {
-                background-color: var(--bg-light);
             }
 
             .nav-links.active {
@@ -568,19 +498,14 @@
             .home-content h1 {
                 font-size: 2rem;
             }
-        }
 
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 2rem;
-            font-style: italic;
-            color: var(--accent);
-            font-size: 1.1rem;
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
-<body class="dark-mode">
+<body>
     <nav>
         <div class="logo">Daphne.</div>
         <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
@@ -597,7 +522,7 @@
 
     <section id="home">
         <div class="home-content">
-            <img src="https://drive.google.com/uc?export=view&id=1iHpxPjh7xh3s_c3tkz4F0-ZukUbHyyah" alt="Daphne Christy J" class="profile-image">
+            <img src="https://drive.google.com/uc?export=view&id=1vruHhPKVUL0MSQH8MnIZx20OZsdqRuNB" alt="Daphne Christy J" class="profile-image">
             <h1>Daphne Christy J</h1>
             <h2>Engineering Student | ML & AI Enthusiast</h2>
             <a href="#contact" class="hire-btn">Hire Me</a>
@@ -606,8 +531,11 @@
 
     <section id="about">
         <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-            <p>A passionate machine learning enthusiast pursuing a career in engineering. Investigating datasets and creating intelligent systems from the ground up are my passions. My projects show a solid grasp of fundamental machine learning concepts and libraries. I can't wait to add my enthusiasm and expertise to a creative team.</p>
+        <div style="display: flex; gap: 3rem; align-items: center; flex-wrap: wrap;">
+            <img src="https://drive.google.com/uc?export=view&id=1iHpxPjh7xh3s_c3tkz4F0-ZukUbHyyah" alt="Daphne Christy J" style="width: 250px; height: 250px; border-radius: 15px; object-fit: cover; border: 4px solid #87ceeb; box-shadow: 0 10px 30px rgba(135, 206, 235, 0.3);">
+            <div class="about-content" style="flex: 1; min-width: 300px;">
+                <p>A passionate machine learning enthusiast pursuing a career in engineering. Investigating datasets and creating intelligent systems from the ground up are my passions. My projects show a solid grasp of fundamental machine learning concepts and libraries. I can't wait to add my enthusiasm and expertise to a creative team.</p>
+            </div>
         </div>
     </section>
 
@@ -620,7 +548,7 @@
             </div>
             <div class="skill-card">
                 <h3>Programming</h3>
-                <p>Python, R, SQL, Java</p>
+                <p>Python, C, SQL, Java</p>
             </div>
             <div class="skill-card">
                 <h3>Frameworks</h3>
@@ -628,7 +556,7 @@
             </div>
             <div class="skill-card">
                 <h3>Tools & Platforms</h3>
-                <p>Jupyter, Git</p>
+                <p>Jupyter, Git, Google Colab</p>
             </div>
         </div>
     </section>
@@ -674,27 +602,84 @@
 
     <section id="certifications">
         <h2 class="section-title">Certifications & Accomplishments</h2>
+        
+        <h3 style="color: #87ceeb; margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem;">Internships</h3>
         <div class="cert-list">
             <div class="cert-item">
                 <h3>Research Intern - SASTRA University, Tanjore</h3>
-                <p>May 2024 - June 2024</p>
-                <p>Completed research internship in Deep Learning techniques to develop a transfer learning model to predict vitamin deficiency</p>
+                <p>May 2025 - June 2025</p>
+                <p>Underwent a summer research internship on the topic "AI based approaches on Data Mining - Deep Learning model for predicting Vitamin deficiency diseases in nails"</p>
+                <button class="cert-btn" onclick="window.open('https://drive.google.com/file/d/1m_pU4xjIo2zL9IJVyYaVKO8Vomdyn6Bv/view', '_blank')">📄 View Certificate</button>
             </div>
             <div class="cert-item">
                 <h3>Student Intern - Cresent Infotech</h3>
-                <p>December 2024</p>
-                <p>Completed Internship training in "Machine Learning with Python" - Learned the basics of Machine Learning and its applications, trained with algorithms and models of Machine Learning and Deep Learning</p>
+                <p>June 2024</p>
+                <p>Completed internship training in "Machine Learning"</p>
+                <button class="cert-btn" onclick="window.open('https://drive.google.com/file/d/1qdW26x76kAnPDMZLa3nmlnj95FB-Sr1U/view', '_blank')">📄 View Certificate</button>
             </div>
+            <div class="cert-item">
+                <h3>Student Intern - Live Stream Technologies</h3>
+                <p>June 2024</p>
+                <p>Completed internship training in "Python with Data Science"</p>
+            </div>
+            <div class="cert-item">
+                <h3>Internship - Pantech Solutions</h3>
+                <p>June 2022</p>
+                <p>Completed Internship on Artificial Intelligence</p>
+            </div>
+        </div>
+
+        <h3 style="color: #87ceeb; margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem;">Paper Presentations</h3>
+        <div class="cert-list">
             <div class="cert-item">
                 <h3>Paper Presentation at CIT</h3>
                 <p>Academic Achievement</p>
-                <p>Participated in Paper Presentation at Coimbatore Institute of Technology</p>
+                <p>Participated in Paper Presentation at Coimbatore Institute of Technology on the topic Metaverse</p>
+                <button class="cert-btn" onclick="window.open('https://drive.google.com/file/d/16ljuUniZa5lj2gVNAFKrh7uyIypC6ije/view', '_blank')">📄 View Certificate</button>
             </div>
+            <div class="cert-item">
+                <h3>Paper Presentation at Sri Ramakrishna Institute of Technology</h3>
+                <p>Academic Achievement</p>
+                <p>Participated in Paper Presentation on the topic Block Chain Technology</p>
+            </div>
+            <div class="cert-item">
+                <h3>Paper Presentation at KEC</h3>
+                <p>Academic Achievement</p>
+                <p>Participated in Paper Presentation at Kongu Engineering College on the topic Machine Learning</p>
+                <button class="cert-btn" onclick="window.open('https://drive.google.com/file/d/1QTYwewHZ_7yqIqC2nw8Cpvta4QOPbUKT/view', '_blank')">📄 View Certificate</button>
+            </div>
+        </div>
+
+        <h3 style="color: #87ceeb; margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem;">Workshops</h3>
+        <div class="cert-list">
             <div class="cert-item">
                 <h3>Workshop on AI at IIT Madras Research Park</h3>
                 <p>Professional Development</p>
                 <p>Participated in Artificial Intelligence Workshop at IIT Madras Research Park</p>
+                <button class="cert-btn" onclick="window.open('https://drive.google.com/file/d/1qxzSOQfg2rRsMhLGqXbxPtQ6fTHC9kHa/view', '_blank')">📄 View Certificate</button>
             </div>
+            <div class="cert-item">
+                <h3>Workshop on Robotics at KIT</h3>
+                <p>Professional Development</p>
+                <p>Participated in IoT based Robotics Workshop at Kalaignar Institute of Technology</p>
+                <button class="cert-btn" onclick="window.open('https://drive.google.com/file/d/1bz9etcJuLnHRNg6sKtlewKMgKSFPhCrA/view', '_blank')">📄 View Certificate</button>
+            </div>
+            <div class="cert-item">
+                <h3>Workshop on AI at KACE</h3>
+                <p>Professional Development</p>
+                <p>Participated in Artificial Intelligence in Digital Era Workshop at Karpagam College of Engineering</p>
+                <button class="cert-btn" onclick="window.open('https://drive.google.com/file/d/1Zdso3Fj2sl_DIRbIBST5IZ2F0oMQ3itB/view', '_blank')">📄 View Certificate</button>
+            </div>
+            <div class="cert-item">
+                <h3>Workshop on AI in Project Management at SKCET</h3>
+                <p>Professional Development</p>
+                <p>Participated in Unlocking the power of AI - Practical Approach on Project Management Workshop at Sri Krishna College of Engineering and Technology</p>
+                <button class="cert-btn" onclick="window.open('https://drive.google.com/file/d/16I83KLfalX-jvuJT3SkT53uKXCQvgOwT/view', '_blank')">📄 View Certificate</button>
+            </div>
+        </div>
+
+        <h3 style="color: #87ceeb; margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem;">Professional Memberships</h3>
+        <div class="cert-list">
             <div class="cert-item">
                 <h3>Professional Memberships</h3>
                 <p>Active Member</p>
@@ -713,8 +698,8 @@
 
     <section id="contact">
         <h2 class="section-title">Get In Touch</h2>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1200px; margin: 0 auto;">
-            <form class="contact-form" onsubmit="handleSubmit(event)" style="margin: 0;">
+        <div class="contact-container">
+            <form class="contact-form" onsubmit="handleSubmit(event)">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
@@ -729,17 +714,17 @@
                 </div>
                 <button type="submit" class="submit-btn">Send Message</button>
             </form>
-            <div style="text-align: center;">
-                <h3 style="font-size: 2rem; color: var(--accent); margin-bottom: 1.5rem;">Let's Work Together!</h3>
-                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">I'm excited to collaborate on innovative ML and AI projects. Whether you have an idea to explore or want to discuss the latest in technology, don't hesitate to connect with me!</p>
-                <div style="display: flex; gap: 1rem; justify-content: center;">
-                    <a href="https://github.com/DaphneJohn" target="_blank" style="width: 60px; height: 60px; background-color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; color: white; font-size: 1.5rem; transition: all 0.3s; font-weight: bold;" title="GitHub">
+            <div class="contact-info">
+                <h3>Let's Work Together!</h3>
+                <p>I'm excited to collaborate on innovative ML and AI projects. Whether you have an idea to explore or want to discuss the latest in technology, don't hesitate to connect with me!</p>
+                <div class="social-links">
+                    <a href="https://github.com/DaphneJohn" target="_blank" class="social-icon" title="GitHub">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                     </a>
-                    <a href="https://www.linkedin.com/in/daphne-john-4729a7253/" target="_blank" style="width: 60px; height: 60px; background-color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; color: white; font-size: 1.5rem; transition: all 0.3s; font-weight: bold;" title="LinkedIn">
+                    <a href="https://www.linkedin.com/in/daphne-john-4729a7253/" target="_blank" class="social-icon" title="LinkedIn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                     </a>
-                    <a href="mailto:daphnechris489@gmail.com" style="width: 60px; height: 60px; background-color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; color: white; font-size: 1.5rem; transition: all 0.3s; font-weight: bold;" title="Email">
+                    <a href="mailto:daphnechris489@gmail.com" class="social-icon" title="Email">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
                     </a>
                 </div>
@@ -750,6 +735,14 @@
     <footer>
         <p>"From import to Impact"</p>
     </footer>
+
+    <!-- Certificate Lightbox -->
+    <div id="certLightbox" class="lightbox" onclick="closeCertLightbox()">
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+            <button class="close-lightbox" onclick="closeCertLightbox()">×</button>
+            <img id="certImage" src="" alt="Certificate">
+        </div>
+    </div>
 
     <script>
         function toggleMenu() {
@@ -788,6 +781,19 @@
             event.target.reset();
         }
 
+        // Certificate Lightbox Functions
+        function openLightbox(imageUrl) {
+            const lightbox = document.getElementById('certLightbox');
+            const certImage = document.getElementById('certImage');
+            certImage.src = imageUrl;
+            lightbox.classList.add('active');
+        }
+
+        function closeCertLightbox() {
+            const lightbox = document.getElementById('certLightbox');
+            lightbox.classList.remove('active');
+        }
+
         // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -801,25 +807,6 @@
                 }
             });
         });
-
-        // Animate section titles on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.animation = 'slideIn 1s ease-out';
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.section-title').forEach(title => {
-            observer.observe(title);
-        });
     </script>
 </body>
 </html>
-
